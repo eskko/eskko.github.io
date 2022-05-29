@@ -82,7 +82,7 @@ document.getElementById("myButton").onclick = function(){
     str = str.replaceAll("\n", " ") + " ";
     var lyst = []; 
     var word = "";
-    var num = 1;
+    //var num = 1;
     var final = "";
     
     for(let i = 0; i < str.length; ++i){
@@ -94,8 +94,8 @@ document.getElementById("myButton").onclick = function(){
                 console.log(word);
                 
                     lyst = shuffleArray(lyst);
-                    final += num + ". ";
-                    ++num;
+                    //final += num + ". ";
+                    //++num;
                     for(let j = 0; j < lyst.length; ++j){
                         lyst[j] = lyst[j].replaceAll("+", " ");
                     }
