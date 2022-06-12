@@ -1,5 +1,5 @@
 {
-    "periodContaining" : ["B.C.", "St.", "U.S.", "U.S.A.", "Dr. ", "Mr.", "Mrs.", "Ms.", "A.I."] ,
+    "periodContaining" : ["B.C.", "St.", "U.S.", "U.S.A.", "Dr. ", "Mr.", "Mrs.", "Ms."] ,
     "sentenceEnding" : [".", "!", "?", ".\"", ".'", "!\"", "?\""]
 
 
