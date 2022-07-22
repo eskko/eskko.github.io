@@ -13,18 +13,6 @@ fetch("config.json")
     }
         
     )
-// ******* index.js *******
-//EASY WAY
-//var myName = window.prompt("What's your name?");
-//console.log("Hello",myName);
-
-//HARD WAY\
-/*
-document.getElementById("myButton").onclick = function(){
-
-    var myName = document.getElementById("myText").value;
-    console.log("Hello",myName);
-}*/
 
 function periodCheck(word){
     for(var c in config1){
@@ -123,7 +111,7 @@ document.getElementById("myButton").onclick = function(){
 
 
     document.getElementById("myDisplay").innerHTML = final;
-    //document.body.innerHTML = "<h2> hi " + myName + "</h2>"
+
 
 
     
